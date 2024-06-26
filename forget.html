@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavishak GYM</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function submitForm() {
+            alert("Mail has been sent to reset the password.");
+            return false;
+        }
+    </script>
+</head>
+<body id="forgetpage">
+        <h1 style="color:rgb(171, 230, 230)">Pavishak GYM</h1>
+        <div class="topnav">
+            <a href="navigation.html">Home</a>
+        <a href="bmi.html">BMI Calculator</a>
+        <a href="about.html">About</a>
+        <a href="register.html">Signup</a>
+        <a href="profile.html">Profile</a>
+          </div>
+    <main>
+        <section id="forget" style="border:white; border-width: 4px;border-style: outset;">
+        
+        <h1 id="forgets" style="color:rgb(253, 252, 252)">Forget Password</h1>
+            <form onsubmit="return submitForm();">
+                <input id="mail" type="email" placeholder="Email" required> 
+                <button id="mail" type="submit" style="color:rgb(253, 252, 252)">Submit</button>
+                <a id="mail" href="login.html" style="color:rgb(253, 252, 252)">back</a>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
